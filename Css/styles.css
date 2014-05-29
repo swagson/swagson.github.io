@@ -1,0 +1,199 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ol, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: black;
+	font-family: Arial;
+}
+
+p{
+	margin: 0 20px;
+	padding: 38px 0px;
+	color: #00002E;
+	line-height: 2em;
+}
+
+p1{
+	line-height: 2em;
+}
+h1{
+	font-size: 80px;
+}
+#Container{
+	margin: 0 auto;
+	background-color: #199019;
+	width: 100%;
+	min-height: 200px;
+	}
+	img{
+	width: 100%;
+}
+#Top{
+	width: 100%;
+	background:url("../Images/lol.jpg") no-repeat;
+	background-position: center -339px;
+	display: inline-block;
+	height: 200px;
+	padding-top: 200px;
+	background-size:100%;
+}
+#Top img{
+	height: 
+}
+#Header{
+	margin: -476px auto 0px;
+} 
+h1{
+	margin: 89px auto 12px;
+	font-family: Brush Script Mt;
+	color: #00002E;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+#SideBar{
+	background-color: #199019;
+	width: 30%;
+	min-height: 600px;
+	float: left;
+}
+#Bottom{
+	background-color: #00002E;
+	color: white;
+	min-height: 100px;
+	width: 100%;
+	clear:	both;
+	margin: 62px 0px 0px;
+}
+
+/* Top level nav */
+
+#Top ul{
+}
+#Top ul li{ 
+list-style: none;
+float: left;
+position: relative;
+}
+
+#Top ul li a{
+padding: 10px 20px;
+background-color: #00002E;
+color: white;
+display: inline-block;
+text-decoration: none;
+font-size: 16px;
+text-transform: uppercase;
+border-left: 2px 
+solid #26414a;
+}
+#Top ul li:first-child a{
+border-left: none;
+}
+#Top ul li a:hover{
+background-color: white;
+color: black;
+}
+/* Sub Level Nav */
+
+#Top ul li ul{
+position: absolute;
+	top: 79;
+	left: -999999px;
+}
+#Top ul li:hover ul{
+left: 0;
+}
+#Top ul li ul li{
+	float: none;
+}
+#Top ul li ul li a{
+	border: none;
+	width: 130px;
+	font-size: 18px;
+	padding: 10px 20px;
+	}
+	
+#Gif {
+height: 205px;
+width: 300px;
+background-color: red;
+float: right;
+margin: 51px 30px 0px 0px;
+border: 5px solid #00002E;
+}
+
+#Gif2 {
+height: 205px;
+width: 384px;
+background-color: red;
+float: right;
+margin: 52px 94px 0px 0px;
+border: 5px solid #00002E;
+}
+
+#Gif3 {
+height: 212px;
+width: 321px;
+background-color: red;
+float: right;
+margin: 50px 76px 0px 0px;
+border: 5px solid #00002E;
+}
+
+.cycle-slideshow img{
+	height: 700px;
+	width: 100% !important;
+	margin: 0px;
+	}
+.cycle-slideshow{
+	position: relative;
+	top: 38px;
+}
+
+#Cnav {
+	position: relative;
+	top: 38px;
+	font-size: 20px;
+	color: #00002E;
+}
+
+
+#Next {
+ margin-left: 7px;
+ margin-right: 7px;
+}
+
+#Next:hover{
+	text-decoration: underline;
+}
+
+#Prev:hover{
+	text-decoration: underline;
+}
+
+#Cnav div{
+	float: left;
+}
+
+#pager a {
+	color: #00002E;
+	text-decoration: none;
+	font-weight: lighter;
+	padding: 1px;
+	
+}
+
+#pager a:hover{
+	border-bottom: 1px solid black !important;
+}
+
+.cycle-pager-active{
+	font-weight: bold !important;
+}
+
+
+
